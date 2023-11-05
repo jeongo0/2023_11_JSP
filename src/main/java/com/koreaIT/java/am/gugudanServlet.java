@@ -15,7 +15,7 @@ public class gugudanServlet extends HttpServlet {
 	
 	//get 방식
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("/jsp/home/gugudan.jsp").forward(request, response);
+		request.getRequestDispatcher("/jsp/home/responseTest.jsp").forward(request, response);
  
 	}
 }

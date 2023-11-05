@@ -14,6 +14,7 @@ public class responseTestServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.getRequestDispatcher("/jsp/home/responseTest.jsp").forward(request, response);
+	
 	}
 
 }
